@@ -1,0 +1,87 @@
+:root {
+    --cor-fundo: #B2EBF2; /* Azul claro suave */
+    --cor-principal: #FF4081; /* Rosa forte */
+    --cor-secundaria: #FFEB3B; /* Amarelo brilhante */
+    --cor-destaque: #FFFFFF; /* Branco */
+    --cor-texto: #212121; /* Cinza escuro */
+    --fonte-principal: 'Arial', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caixa-principal:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: var(--cor-destaque);
+    font-family: var(--fonte-secundaria);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.caixa-perguntas {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.caixa-resultado {
+    margin-top: 30px;
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.texto-resultado {
+    color: var(--cor-texto);
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 1.6;
+}
