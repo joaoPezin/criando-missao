@@ -1,9 +1,9 @@
 :root {
-    --cor-fundo: #000000; /* Azul claro suave */
-    --cor-principal: #474a4c; /* Rosa forte */
-    --cor-secundaria: #c9c9c9; /* Amarelo brilhante */
-    --cor-destaque: #FFFFFF; /* Branco */
-    --cor-texto: #8a8a8a; /* Cinza escuro */
+    --cor-fundo: #000000; 
+    --cor-principal: #474a4c;
+    --cor-secundaria: #c9c9c9;
+    --cor-destaque: #FFFFFF;
+    --cor-texto: #8a8a8a;
     --fonte-principal: 'Arial', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
 }
